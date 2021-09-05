@@ -17,3 +17,5 @@
 
 ## Live application: 
 https://k-owell.github.io/Planner/
+
+![screencapture-file-C-Users-User-Desktop-Class-Work-Projects-Calender-index-html-2021-09-05-15_12_33](https://user-images.githubusercontent.com/87747089/132142822-24e929aa-faf7-4dee-9a2e-71c2d6842dc0.png)
