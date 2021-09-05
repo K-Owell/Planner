@@ -55,7 +55,6 @@ var currentTime = moment().format("H")
 
 $(document).ready(function () {
     
-    console.log(showTime)
     $("#nowTime").text(showTime);
     // create visuals for scheduler time, description and save btn icon
     function addTimeBlock() {
@@ -76,7 +75,6 @@ $(document).ready(function () {
             
             
             $(saveBtn).on("click", function () {
-                console.log("string, click")
                 var value = $(this).siblings(".description").val()
                 var time = $(this).siblings(".description").attr("id")
                 console.log(time, value)
@@ -101,9 +99,9 @@ $(document).ready(function () {
     $(".10").val(localStorage.getItem("10"))
     $(".11").val(localStorage.getItem("11"))
     $(".12").val(localStorage.getItem("12"))
-    $(".1").val(localStorage.getItem("1"))
-    $(".2").val(localStorage.getItem("2"))
-    $(".3").val(localStorage.getItem("3"))
-    $(".4").val(localStorage.getItem("4"))
-    $(".5").val(localStorage.getItem("5"))
+    $(".13").val(localStorage.getItem("13"))
+    $(".14").val(localStorage.getItem("14"))
+    $(".15").val(localStorage.getItem("15"))
+    $(".16").val(localStorage.getItem("16"))
+    $(".17").val(localStorage.getItem("17"))
 })
